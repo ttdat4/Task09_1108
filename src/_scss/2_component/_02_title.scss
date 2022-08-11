@@ -1,0 +1,139 @@
+/*------------------------------------------------------------
+title
+------------------------------------------------------------*/
+
+
+/*
+------------------------------------------------------------*/
+.c-title {
+
+    @include sp {
+        padding: 0 20px 0 10px;
+    }
+
+    &__bigtit {
+        font-size: 3.4rem;
+        font-weight: 500;
+        letter-spacing: 0.07em;
+        line-height: 1.47;
+        color: #0080cc;
+        text-align: center;
+        margin-bottom: 7px;
+
+        @include tab {
+            font-size: 3rem;
+            letter-spacing: 0.054em;
+            margin-bottom: 9px;
+        }
+
+        @include sp {
+            font-size: 2.4rem;
+            letter-spacing: 0.05em;
+            margin-bottom: 0;
+        }
+    }
+
+    &__subtit {
+        font-size: 1.6rem;
+        color: #3c3c3c;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.75;
+        letter-spacing: 0.02em;
+
+        @include tab {
+            font-size: 1.4rem;
+            letter-spacing: 0.024em;
+        }
+        @include sp {
+            font-size: 1.4rem;
+            line-height: 1.6;
+            letter-spacing: 0.024em;
+        }
+    }
+
+    &2 {
+        font-size: 3.4rem;
+        font-weight: 500;
+        letter-spacing: 0.07em;
+        margin-bottom: 23px;
+        line-height: 1.47;
+        color: #fff;
+
+        @include tab {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+    
+        @include sp {
+            font-size: 2.4rem;
+            letter-spacing: 0.05em;
+            line-height: 0.9;
+            margin-bottom: 17px;
+        }
+    }
+
+    &3 {
+        font-size: 3.4rem;
+        font-weight: 500;
+        line-height: 1.47;
+        color: #0080cc;
+        text-align: center;
+        margin-bottom: 10px;
+        letter-spacing: 0.05em;
+    }
+
+    &4 {
+        font-size: 3.4rem;
+        font-weight: 500;
+        line-height: 1.47;
+        color: #0080cc;
+        text-align: center;
+        letter-spacing: 0.07em;
+        margin-bottom: 17px;
+    }
+
+    &5 {
+        font-size: 3.4rem;
+        color: #0080cc;
+        font-weight: 500;
+        line-height: 1.32;
+        margin-bottom: 12px;
+        letter-spacing: 0.02em;
+        position: relative;
+    }
+
+    &6 {
+        font-size: 3.4rem;
+        color: #0080cc;
+        font-weight: 500;
+        line-height: 1.32;
+        margin-bottom: 45px;
+        letter-spacing: 0.03em;
+        position: relative;
+    }
+
+    &7 {
+        font-size: 2.8rem;
+        font-weight: 500;
+        color: #ff5800;
+        line-height: 1.6;
+        margin: 91px 0 7px;
+        letter-spacing: 0.02em;
+    }
+}
+
+.c-subtitle {
+    &3 {
+        font-size: 1.6rem;
+        color: #3c3c3c;
+        font-weight: 400;
+        text-align: center;
+        line-height: 1.75;
+        letter-spacing: 0.02em;
+    }
+}
+
+
+
+

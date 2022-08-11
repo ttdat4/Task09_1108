@@ -1,0 +1,108 @@
+.c-service {
+    display: flex;
+    justify-content: space-between;
+
+    &__img {
+        max-width: 400px;
+        width: 100%;
+        margin-right: 40px;
+
+        img {
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__text {
+        max-width: 560px;
+        width: 100%;
+        margin-right: -40px;
+
+        &9 {
+            font-size: 1.6rem;
+        }
+
+        &1title {
+            font-size: 1.8rem;
+            line-height: 1.67;
+            font-weight: 500;
+            margin-bottom: 11px;
+            position: relative;
+            text-indent: 17px;
+            padding-right: 5px;
+            letter-spacing: 0.03em;
+        }
+
+        &1title::before {
+            content: "";
+            background: #3c3c3c;
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            top: 12px;
+            left: 1px;
+            border-radius: 100%;
+        }
+
+        &1sub {
+            line-height: 1.75;
+            margin: 0 0 15px 20px;
+            letter-spacing: 0.02em;
+            font-weight: 300;
+
+            sub {
+                display: contents;
+            }
+        }
+
+        &3sub {
+            margin-bottom: 9px;
+        }
+
+        &01 {
+            .u-text9 {
+                letter-spacing: 0.2em;
+            }
+        }
+
+        &2 {
+            p:nth-child(1) {
+                margin-bottom: 3px;
+            }
+        }
+
+        &5 {
+            p:nth-child(1) {
+                margin-bottom: 12px;
+            }
+
+            p:nth-child(2) {
+                padding-left: 3px;
+                margin-bottom: 11px;
+            }
+        }
+
+        &6 {
+            p {
+                margin-top: 0;
+            }
+        }
+
+        &8 {
+            margin-top: 52px;
+
+            h2 {
+                margin: 0 0 13px;
+            }
+
+            p:nth-child(1) {
+                margin-bottom: 7px;
+            }
+
+            p:nth-child(2) {
+                padding-left: 3px;
+            }
+        }
+    }
+
+}
